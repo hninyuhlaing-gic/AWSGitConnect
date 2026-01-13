@@ -17,9 +17,9 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
-s3_prefix = "test-git-hyh"
-region = "ap-northeast-1"
+s3_prefix = "test-git-hyh-1"
 image_repositories = []
+stack_name = "test-git-hyh-1"
 
 [default.package.parameters]
 resolve_s3 = true
