@@ -39,4 +39,4 @@ jobs:
 
       - name: SAM デプロイ
         working-directory: test-git-hyh
-        run: sam deploy --no-confirm-changeset --stack-name test-git-hyh --capabilities CAPABILITY_IAM
+        run: sam deploy --no-confirm-changeset --stack-name test-git-hyh-1 --capabilities CAPABILITY_IAM
